@@ -1,0 +1,139 @@
+/* Style sheet created by: Leo Koeske, 11/28/2022 */
+
+/* style for background color */
+body {
+	background-color: #FFB6C1;
+}
+
+h1 {
+	Text-align: Center;
+}
+
+img { 
+	max-width: 40%;
+	text-align: center;
+}
+
+nav {
+	font-family: Charlesworth;
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+nav ul {
+		padding-right: 15em;
+		padding-left: 15em;
+		margin-top: 1.5em;
+		margin-bottom: 1.5em;
+}
+
+nav li {
+		background-color: #DB7093;
+		border-radius: 2em;
+		list-style-type: none;
+		margin: 1em;
+		padding: 1.1em;
+		display: inline;
+		margin-bottom: 3em;
+}
+
+nav li a {
+			color: #FFFFFF;
+			text-decoration: none;
+}
+
+main {
+	display: block;
+	font-family: Book Antiqua, Helvetica, serif;
+	font-size: 1.25em;
+	margin-top: .5em;
+	margin-bottom: 15px;
+	padding-right: 5em;
+	padding-left: 5em;
+	border-radius: 2em 0 2em 0;
+	background-color: #FFFFFF;
+	opacity: 0.85;
+	text-align: center;
+}
+
+#admire {
+	background-image: url("../photos/ava_sakura_final.png");
+	background-repeat: no-repeat;
+	background-position: left;	
+}
+
+
+#interests {
+	
+}
+
+footer {
+	text-align: center;
+	margin-top: 5em;
+}
+
+#footerspace {
+	Margin-top: 40em;
+}
+
+li	{
+	font-weight: bold;
+	list-style-type: none;
+}
+
+
+
+/* style for article element */
+article {
+	background-color: #FFC0CB;
+	float: left;
+	margin: 0.5%;
+	padding: 0.5%;
+	text-align: center;
+	width: 31%;
+	border-radius: 2em 0 2em 0;
+	background-color: #FFFFFF;
+	opacity: 0.85;
+}
+
+
+
+main article ul {
+	text-align: center;
+}
+
+
+aside {
+	background-color: #FFC0CB;
+	border-radius: 5em 5em 5em 5em;
+	box-shadow: 1em 1em 1em #4C4C4D;
+	padding: 1.5em;
+	margin: 1em;
+}
+
+
+
+/* style for image element contained within the main article element */
+main article image {
+	border: solid 0.1em #1D1D1C;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+main article p {
+	color: #000000;
+	margin-top: 2%;
+	padding: 1%;
+	text-align: left;
+}
+
+
+/* style for unordered list element contained within the main article element */
+main article ul {
+	text-align: left;
+}
+
